@@ -10,9 +10,9 @@ const CSS_PATH = '/blogs/css'
 module.exports = {
   [JAVASCRIPT_PATH]: [
     createSideBarConfig('JS-基础', JAVASCRIPT_PATH + '/js-base'),
-    createSideBarConfig('JS-V8引擎原理', JAVASCRIPT_PATH + '/js-v8'),
+    createSideBarConfig('JS-V8引擎原理', JAVASCRIPT_PATH + '/V8'),
   ],
-  // [CSS_PATH]: [createSideBarConfig('CSS 技巧', CSS_PATH)],
+  // [CSS_PATH]: [createSideBarConfig('CSS', CSS_PATH)],
   // [BROWSER_PATH]: [
   //   createSideBarConfig('浏览器渲染', BROWSER_PATH + '/browser-render'),
   //   createSideBarConfig('浏览器安全', BROWSER_PATH + '/browser-security'),
