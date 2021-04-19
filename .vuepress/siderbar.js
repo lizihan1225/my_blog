@@ -13,8 +13,7 @@ module.exports = {
     createSideBarConfig('JS-V8引擎原理', JAVASCRIPT_PATH + '/V8'),
   ],
   // [CSS_PATH]: [createSideBarConfig('CSS', CSS_PATH)],
-  // [BROWSER_PATH]: [
-  //   createSideBarConfig('浏览器渲染', BROWSER_PATH + '/browser-render'),
-  //   createSideBarConfig('浏览器安全', BROWSER_PATH + '/browser-security'),
-  // ]
+  [BROWSER_PATH]: [
+    createSideBarConfig('浏览器工作原理', BROWSER_PATH),
+  ]
 }
