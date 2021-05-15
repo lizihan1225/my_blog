@@ -6,6 +6,7 @@ const BROWSER_PATH = '/blogs/browser'
 const WEBPACK_PATH = '/blogs/webpack'
 const NODE_PATH = '/blogs/node'
 const CSS_PATH = '/blogs/css'
+const WORK = '/blogs/work'
 
 module.exports = {
   [JAVASCRIPT_PATH]: [
@@ -15,5 +16,8 @@ module.exports = {
   // [CSS_PATH]: [createSideBarConfig('CSS', CSS_PATH)],
   [BROWSER_PATH]: [
     createSideBarConfig('浏览器工作原理', BROWSER_PATH),
+  ],
+  [WORK]: [
+    createSideBarConfig('工作感悟', WORK),
   ]
 }
