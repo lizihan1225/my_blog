@@ -7,7 +7,7 @@ const WEBPACK_PATH = '/blogs/webpack'
 const NODE_PATH = '/blogs/node'
 const CSS_PATH = '/blogs/css'
 const WORK = '/blogs/work'
-const READ = '/blogs/read'
+const NODE = '/blogs/node'
 
 module.exports = {
   [JAVASCRIPT_PATH]: [
@@ -21,7 +21,7 @@ module.exports = {
   [WORK]: [
     createSideBarConfig('工作感悟', WORK),
   ],
-  [READ]: [
-    createSideBarConfig('深入浅出node.js', READ + '/node'),
+  [NODE]: [
+    createSideBarConfig('Node', NODE),
   ]
 }
