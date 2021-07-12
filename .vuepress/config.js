@@ -57,7 +57,7 @@ module.exports = {
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/lizihan1225",
+            "link": "https://github.com/lizi1225",
             "icon": "reco-github"
           }
         ]
@@ -87,7 +87,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "lizihan",
+    "author": "lizi",
     "authorAvatar": "/avatar.jpg",
     // "record": "xxxx",
     "startYear": "2021"
