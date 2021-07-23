@@ -12,7 +12,7 @@ const NODE = '/blogs/node'
 module.exports = {
   [JAVASCRIPT_PATH]: [
     createSideBarConfig('JS-基础', JAVASCRIPT_PATH + '/js-base'),
-    createSideBarConfig('JS-V8引擎原理', JAVASCRIPT_PATH + '/V8'),
+    createSideBarConfig('JS-V8引擎原理', JAVASCRIPT_PATH + '/v8'),
   ],
   // [CSS_PATH]: [createSideBarConfig('CSS', CSS_PATH)],
   [BROWSER_PATH]: [
