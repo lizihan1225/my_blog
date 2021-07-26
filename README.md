@@ -1,8 +1,8 @@
 ---
 home: true
+lang: zh-CN
 heroText: 我的博客
-tagline: 我的学习笔记
-# heroImage: /hero.png
+heroImage: /logo.png
 heroImageStyle: {
   maxWidth: '600px',
   width: '100%',
@@ -15,11 +15,9 @@ bgImageStyle: {
   height: '450px'
 }
 isShowTitleInHome: false
-# actionText: Guide
-# actionLink: /views/other/guide
-# features:
-# - title: Yesterday
-#   details: 开发一款看着开心、写着顺手的 vuepress 博客主题
-# - title: Today
-#   details: 记录下我每一天的学习
-# ---
+actionText: 开始 →
+actionLink: /js/
+features:
+- title: A Blog
+  details: 专注写作前端博客，记录我的学习日常
+---
