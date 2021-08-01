@@ -8,6 +8,7 @@ const NODE_PATH = '/blogs/node'
 const CSS_PATH = '/blogs/css'
 const WORK = '/blogs/work'
 const NODE = '/blogs/node'
+const Design_Pattern = '/blogs/design_pattern'
 
 module.exports = {
   [JAVASCRIPT_PATH]: [
@@ -23,5 +24,8 @@ module.exports = {
   ],
   [NODE]: [
     createSideBarConfig('Node', NODE),
+  ],
+  [Design_Pattern]: [
+    createSideBarConfig('设计模式', Design_Pattern),
   ]
 }
