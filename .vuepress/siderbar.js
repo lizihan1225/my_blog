@@ -20,7 +20,7 @@ module.exports = {
     createSideBarConfig('浏览器工作原理', BROWSER_PATH),
   ],
   [WORK]: [
-    createSideBarConfig('工作感悟', WORK),
+    createSideBarConfig('工作总结', WORK),
   ],
   [NODE]: [
     createSideBarConfig('Node', NODE),
