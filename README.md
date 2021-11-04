@@ -1,7 +1,7 @@
 ---
 home: true
 lang: zh-CN
-heroText: 我的博客
+heroText: 逆水行舟、不进则退！
 heroImageStyle: {
   maxWidth: '600px',
   width: '100%',
