@@ -1,6 +1,6 @@
 const sidebar = require('./siderbar.js');
 module.exports = {
-  "title": "我的博客",
+  "title": "梨子的博客",
   "description": "记录我的学习日常",
   "dest": "docs",
   "base": '/my_blog/',
