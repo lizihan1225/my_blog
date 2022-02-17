@@ -1,7 +1,7 @@
 ---
 home: true
 lang: zh-CN
-heroText: 逆水行舟、不进则退！
+heroText: Talk is cheap. Show me the code.
 heroImageStyle: {
   maxWidth: '600px',
   width: '100%',
