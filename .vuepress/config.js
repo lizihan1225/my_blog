@@ -1,6 +1,6 @@
 const sidebar = require('./siderbar.js');
 module.exports = {
-  "title": "猫腻的博客",
+  "title": "cold的博客",
   "description": "记录我的学习日常",
   "dest": "docs",
   "base": '/my_blog/',
@@ -57,7 +57,7 @@ module.exports = {
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/maoni1225",
+            "link": "https://github.com/cold1225",
             "icon": "reco-github"
           }
         ]
@@ -87,7 +87,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "maoni",
+    "author": "cold",
     "authorAvatar": "/avatar.jpg",
     // "record": "xxxx",
     "startYear": "2021"
