@@ -17,6 +17,6 @@ git commit -m 'deploy'
 # git config --global user.email "xxx@xx.com"
 
 # 填写你需要发布的仓库地址
-git push -f git@github.com:maoni1225/my_blog.git main
+git push -f git@github.com:cold1225/my_blog.git main
 
 cd ..
