@@ -17,8 +17,8 @@ Function.prototype.myApply = function (obj, args) {
 Function.prototype.myBind = function (obj, ...outerArgs) {
     const _this = this
     const fn = function (...innerArgs) {
-        if (this instanceof this) {
-
+        if (this instanceof _this) {
+            return _this.myCall(_this, ...outerArgs, ...innerArgs)
         }
         return _this.myCall(obj, ...outerArgs, ...innerArgs)
     }
