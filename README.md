@@ -1,7 +1,7 @@
 ---
 home: true
 lang: zh-CN
-heroText: Talk is cheap. Show me the code.
+heroText: 不积跬步，无以至千里
 heroImageStyle: {
   maxWidth: '600px',
   width: '100%',
@@ -16,5 +16,5 @@ bgImageStyle: {
 isShowTitleInHome: false
 features:
 - title: A Blog
-  details: 专注写作前端博客，记录我的学习日常
+  details: 记录我的学习日常
 ---
