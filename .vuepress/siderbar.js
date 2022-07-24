@@ -18,6 +18,7 @@ module.exports = {
   ],
   [VUE]: [
     createSideBarConfig('vue2', VUE + '/vue2'),
+    createSideBarConfig('vue3', VUE + '/vue3'),
   ],
   // [CSS_PATH]: [createSideBarConfig('CSS', CSS_PATH)],
   [BROWSER_PATH]: [
