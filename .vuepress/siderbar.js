@@ -10,6 +10,7 @@ const WORK = '/blogs/work'
 const NODE = '/blogs/node'
 const Design_Pattern = '/blogs/design_pattern'
 const VUE = '/blogs/vue'
+const SKILLS = '/blogs/skills'
 
 module.exports = {
   [JAVASCRIPT_PATH]: [
@@ -32,5 +33,8 @@ module.exports = {
   ],
   [Design_Pattern]: [
     createSideBarConfig('设计模式', Design_Pattern),
+  ],
+  [SKILLS]: [
+    createSideBarConfig('编程技能', SKILLS),
   ]
 }
