@@ -3,7 +3,7 @@ module.exports = {
   "title": "cold的博客",
   "description": "记录我的学习日常",
   "dest": "docs",
-  "base": '/',
+  "base": '/my_blog',
   // "base": "/",
   "head": [
     [
