@@ -1,26 +1,24 @@
-name: test
+name: deploy
 
 on:
   push:
     branches:
       - main
-    paths:
-      - '.github/workflows/**'
-      - 'blogs/**'
+    # paths:
+    #   - '.github/workflows/**'
+    #   - 'blogs/**'
 
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2 # git pull
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 14
-      - name: print node version
+          node-version: 12
+      - name: deploy project
         run: |
-          node -v
-          npm -v
           npm install
           npm run build
 
