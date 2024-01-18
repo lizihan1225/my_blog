@@ -2,8 +2,8 @@ const sidebar = require('./siderbar.js');
 module.exports = {
   "title": "cold的博客",
   "description": "记录我的学习日常",
-  "dest": "docs",
-  "base": '/my_blog',
+  "dest": "dist",
+  "base": '/',
   // "base": "/",
   "head": [
     [
