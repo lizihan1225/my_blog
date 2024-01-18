@@ -14,7 +14,7 @@ const SKILLS = '/blogs/skills'
 
 module.exports = {
   [JAVASCRIPT_PATH]: [
-    createSideBarConfig('JS-基础1', JAVASCRIPT_PATH + '/js-base'),
+    createSideBarConfig('JS-基础', JAVASCRIPT_PATH + '/js-base'),
     // createSideBarConfig('JS-V8引擎', JAVASCRIPT_PATH + '/v8'),
   ],
   [VUE]: [
