@@ -35,7 +35,7 @@ module.exports = {
     createSideBarConfig('设计模式', Design_Pattern),
   ],
   [SKILLS]: [
-    createSideBarConfig('编程技能', SKILLS),
+    // createSideBarConfig('编程技能', SKILLS),
     createSideBarConfig('vim', SKILLS + '/vim'),
   ]
 }
