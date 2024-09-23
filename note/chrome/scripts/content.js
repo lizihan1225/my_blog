@@ -1,3 +1,5 @@
+// 文档：https://developer.chrome.com/docs/extensions/get-started/tutorial/scripts-on-every-tab?hl=zh-cn
+
 const reg = /project\/(\d+)/;
 const projecId = location.href.match(reg)[1];
 
