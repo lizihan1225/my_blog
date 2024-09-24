@@ -5,7 +5,16 @@
     "content_scripts": [
         {
             "js": ["scripts/content.js"],
-            "matches": [ "https://app.apifox.com/project/*"]
+            "matches": ["https://app.apifox.com/project/2744194/apis/*"]
         }
+    ],
+    "background": {
+        "service_worker": "service_worker.js"
+    },
+    "permissions": [
+        "clipboardRead",
+		"clipboardWrite",
+        "contextMenus",
+        "notifications"
     ]
 }
