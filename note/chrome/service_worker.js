@@ -3,7 +3,7 @@ chrome.runtime.onInstalled.addListener((details) => {
     chrome.contextMenus.create({
       "id": "apifox",
       "title": "复制apifox",
-      "documentUrlPatterns": ["https://app.apifox.com/project/2744194/apis/*"],
+      "documentUrlPatterns": ["https://app.apifox.com/project/*"],
     //   onClick: (info, tab) => {
     //     console.log('click'. info, tab);
     //   }
@@ -26,6 +26,4 @@ chrome.runtime.onInstalled.addListener((details) => {
               )
         });
     })
-
-    
   });

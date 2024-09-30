@@ -5,7 +5,7 @@
     "content_scripts": [
         {
             "js": ["scripts/content.js"],
-            "matches": ["https://app.apifox.com/project/2744194/apis/*"]
+            "matches": ["https://app.apifox.com/project/*"]
         }
     ],
     "background": {
